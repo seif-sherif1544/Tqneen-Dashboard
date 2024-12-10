@@ -1,0 +1,60 @@
+html,
+body {
+  min-height: 100%;
+  background-color: #eff5fa !important;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Public Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+.mui-phone-number-input {
+  /* Styles for the entire input container */
+  background-color: #ffffff; /* White background */
+  width: 100%;
+  margin-bottom: 1rem !important;
+  border: 1px solid #c5c4c9 !important; /* Default border color */
+
+  border-radius: 4px !important;
+  padding-left: 0.5rem !important;
+  /* Styles for the input field */
+  & .MuiInputBase-root {
+    color: #000000; /* Black text color */
+    font-size: 16px; /* Font size */
+
+    & .MuiInputBase-input {
+      padding: 14.5px 14px; /* Padding */
+      min-width: 4rem; /* Minimum width */
+
+      /* Border styles */
+      /* Rounded corners */
+
+      &:focus {
+        outline: none; /* Remove default focus outline */
+        /* box-shadow: 0 0 0 2px rgba(16, 104, 168, 0.5); Focus effect */
+      }
+    }
+
+    /* Styles for the country selector */
+    & .MuiSelect-select {
+      padding: 14.5px 14px; /* Same padding as input field */
+      min-width: 4rem; /* Same minimum width */
+    }
+  }
+}
