@@ -16,7 +16,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 8000
 
 # Start the Next.js app
 CMD ["npm", "start"]
