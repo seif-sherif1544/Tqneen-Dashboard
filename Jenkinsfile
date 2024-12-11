@@ -32,7 +32,7 @@ pipeline {
                 script{
                     sh "docker stop my-website || true"
                     sh "docker rm my-website || true"
-                    sh "docker run -d -p 8000:8000 --name taqneen-app ssherif/new-repo:${env.GIT_COMMIT}"
+                    sh "docker run -d -p 8000 --name taqneen-app ssherif/new-repo:${env.GIT_COMMIT}"
                     sh "docker ps"
                     sh "sleep 20s"
                 }
