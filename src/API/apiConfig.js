@@ -9,6 +9,6 @@
 // }
 
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = 'https://testing.api.tqneen.com';
 
 export default baseUrl;
