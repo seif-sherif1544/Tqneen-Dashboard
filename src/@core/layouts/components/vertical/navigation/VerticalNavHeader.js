@@ -97,12 +97,7 @@ const VerticalNavHeader = props => {
         justifyContent:'center',
         alignItems:'center'
       }}>
-        // <LinkStyled href='/'>
-        //   <BrandImage alt='tqneenlogolawyerdark' src={`/images/pages/${imageSource}.png`} />
-        //     {/* <HeaderTitle variant='h4' sx={{ ...menuCollapsedStyles, ...(navCollapsed && !navHover ? {} : { ml: 2.5 }) }}>
-        //       {themeConfig.templateName}
-        //     </HeaderTitle> */}
-        //   </LinkStyled>
+        
       </Box>
       )}
 
